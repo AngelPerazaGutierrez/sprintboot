@@ -62,8 +62,8 @@ public class PagoController {
     }
 
     @GetMapping("/estudiantes/{codigo}/pagos")
-    public List<Pago> listarPagosPorCodigoEstudiante(@RequestParam String codigo){
-        return pagoRepository.findAll();
+    public List<Pago> listarPagosPorCodigoEstudiante(@PathVariable String codigo){
+        return pagoRepository.findByEstudianteCodigo(codigo);
     }
 
     @GetMapping("/pagosPorStatus")
