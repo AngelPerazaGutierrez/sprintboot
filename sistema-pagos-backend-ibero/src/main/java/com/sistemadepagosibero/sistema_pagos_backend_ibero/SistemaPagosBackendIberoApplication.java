@@ -33,7 +33,7 @@ public class SistemaPagosBackendIberoApplication {
 			.id(UUID.randomUUID().toString())
 			.nombre("Melisa")
 			.apellido("Soto")
-			.codigo("1234")
+			.codigo("1001")
 			.programaId("ISV1")
 			.build());
 
@@ -41,7 +41,7 @@ public class SistemaPagosBackendIberoApplication {
 			.id(UUID.randomUUID().toString())
 			.nombre("Juana")
 			.apellido("Sopo")
-			.codigo("12345")
+			.codigo("1002")
 			.programaId("PSV1")
 			.build());
 
@@ -49,7 +49,7 @@ public class SistemaPagosBackendIberoApplication {
 			.id(UUID.randomUUID().toString())
 			.nombre("Angel")
 			.apellido("Peraza")
-			.codigo("10337")
+			.codigo("1003")
 			.programaId("ISV1")
 			.build());
 
